@@ -1,4 +1,11 @@
-# gatsby-starter-default
-The default Gatsby starter
+# development
 
-Install this starter (assuming Gatsby is installed) by running from your CLI: gatsby new gatsby-example-site
+Run ```gatsby develop```. Site will be available on port 8000. It will hot-reload for most changes.
+
+Contents are in ```pages/```. Edit ```index.js``` and styles.scss``` to update the site contents.
+
+# deploy
+
+```
+% npm run deploy
+```
