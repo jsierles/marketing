@@ -66,7 +66,7 @@ export default class Index extends React.Component {
           <div className="bios">
             <div>
               <img src="/chris.png" />
-              <h3>Chris Asheghian</h3>
+              <h3>Christopher Dro</h3>
                 <p>I'm passionate about building cross-platform apps and contributing to React Native.
                   In my free time I play guitar and work on Reploy :)
                   </p>
