@@ -14,6 +14,10 @@ html, body {
   background-size: cover;
   padding: 0 2.4em;
 
+  .nav {
+    letter-spacing: .2em;
+  }
+
   .tagline {
     max-width: 400px;
     h3 {
@@ -95,14 +99,38 @@ h3 {
 }
 
 .features {
-  margin-top: -.5em;
+  padding-top: .5em;
+  background-color: #4ec3df !important;
+  text-align:center;
+}
+
+.features-block {
+  padding-top: 1em;
   display: flex;
+  flex-wrap: wrap;
   div {
-    flex: 1;
-    background-color: #eee;
+    width: 50%;
+    color: #fff;
     padding: 1em;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    .feature-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url(/feature-bg.png) no-repeat center;
+      background-size: contain;
+    }
+    p {
+      width: 50%;
+    }
     h4 {
+      margin-top: 3em;
+      color: #eee;
       text-transform: uppercase;
     }
     p {
@@ -111,11 +139,10 @@ h3 {
   }
 }
 
-.push {
-  background-color: #a3dee3;
-}
-
 .team {
+  a, a:visited {
+    color: #eee;
+  }
   color: #eee;
   background: url(/circlebg.png) #2f6d82;
   background-position: center;
@@ -195,7 +222,11 @@ h5 a {
     }
   }
   .features {
+    margin-top: 0;
     flex-direction: column;
+    div {
+      width: 100%;
+    }
   }
 
   .bios {

@@ -24,21 +24,36 @@ export default class Index extends React.Component {
           <a href="https://app.reploy.io/signup"><button>Sign up and setup your first app</button></a>
         </div>
         <div id="features" className="features">
-          <div className="push">
-            <h4>push</h4>
-            <p>One command to build and push.</p>
-          </div>
-          <div className="test">
-            <h4>test</h4>
-            <p>Invite people to test apps <em>in-browser</em> on iOS and Android simulators.</p>
-          </div>
-          <div className="comment">
-            <h4>comment</h4>
-            <p>Comment on screen captures.</p>
-          </div>
-          <div className="review">
-            <h4>review</h4>
-            <p>Review feedback from your team and clients.</p>
+          <h2>Features</h2>
+          <div className="features-block">
+            <div className="push">
+              <div className="feature-image">
+                <img src="/feature-push.png" />
+              </div>
+              <h4>push</h4>
+              <p>Build and push your app from the command line.</p>
+            </div>
+            <div className="test">
+              <div className="feature-image">
+                <img src="/feature-test.png" />
+              </div>
+              <h4>test</h4>
+              <p>Get people testing immediately <em>in-browser</em> on iOS and Android simulators.</p>
+            </div>
+            <div className="comment">
+              <div className="feature-image">
+                <img src="/feature-comment.png" />
+              </div>
+              <h4>comment</h4>
+              <p>Your testers comment on screen captures of bugs or suggestions.</p>
+            </div>
+            <div className="review">
+              <div className="feature-image">
+                <img src="/feature-review.png" />
+              </div>
+              <h4>review</h4>
+              <p>You review feedback from your team and your customers.</p>
+            </div>
           </div>
         </div>
         <div id="team" className="team">
