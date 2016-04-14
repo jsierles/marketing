@@ -29,7 +29,7 @@ module.exports = React.createClass({
           />
           <title>{title}</title>
           <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Varela+Round" />
-          <link rel="shortcut icon" href={this.props.favicon} />
+          <link id="favicon" rel="shortcut icon" href="/favicon.png" sizes="16x16 32x32 64x64" type="image/png" />
           <TypographyStyle />
           {cssLink}
         </head>
