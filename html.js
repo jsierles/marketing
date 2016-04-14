@@ -4,7 +4,6 @@ import DocumentTitle from 'react-document-title'
 import { prefixLink } from 'gatsby-helpers'
 import { TypographyStyle } from 'utils/typography'
 
-
 module.exports = React.createClass({
   propTypes () {
     return {
@@ -29,6 +28,7 @@ module.exports = React.createClass({
             content="width=device-width, initial-scale=1.0 maximum-scale=1.0"
           />
           <title>{title}</title>
+          <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Varela+Round" />
           <link rel="shortcut icon" href={this.props.favicon} />
           <TypographyStyle />
           {cssLink}
