@@ -86,8 +86,11 @@ h3 {
   text-decoration: none;
 }
 
+h2, h3 {
+    line-height: 1.6em !important;
+}
 .header button {
-  background-color: #3e90a8;
+  background-color: #368CA1;
   border: none;
   color: #eee;
   text-transform: uppercase;
@@ -217,8 +220,11 @@ h5 a {
     background: #222;
     text-align: center;
     .tagline {
-      max-width: 80vw;
+      max-width: 450px;
       margin: 0 auto;
+      h3, h4 {
+        letter-spacing: .1em;
+      }
     }
   }
   .features {
@@ -233,7 +239,12 @@ h5 a {
     flex-direction: column;
     width: 90%;
     p {
+      letter-spacing: .08em;
       font-size: 80%;
+    }
+    h3 {
+      letter-spacing: .1em;
+      font-weight: 600;
     }
   }
   .blurb {
