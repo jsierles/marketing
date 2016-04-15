@@ -35,7 +35,7 @@
   "main": "n/a",
   "scripts": {
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "publish": "gatsby build && surge -p public -d reploy-new.surge.sh",
+    "deploy": "gatsby build && surge -p public -d https://reploy.io",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
