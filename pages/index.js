@@ -21,7 +21,7 @@ export default class Index extends React.Component {
             <h3>Skip app testing headaches.</h3>
             <h4>Keep your team and customers in the loop with in-browser app testing tools.</h4>
           </div>
-          <a href="https://app.reploy.io/signup"><button>Sign up and setup your first app</button></a>
+          <a href="https://app.reploy.io/signup"><button>Sign up and set up your first app</button></a>
         </div>
         <div id="features" className="features">
           <h2>Features</h2>
@@ -75,7 +75,7 @@ export default class Index extends React.Component {
             <div>
               <img src="/joshua.png" />
                 <h3>Joshua Sierles</h3>
-                <p>I spent some of my time working on Reploy and React Native apps.
+                <p>I spend some of my time working on Reploy and React Native apps.
                   The rest of my time I enjoy a slow life in southern Spain playing flamenco guitar or drinking small beers.
                   </p>
                   <h4><a href="http://joshua.si">joshua.si</a></h4>
