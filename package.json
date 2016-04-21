@@ -21,6 +21,7 @@
     "object-assign": "^4.0.1",
     "react-document-title": "^2.0.1",
     "react-headroom": "^1.8.0",
+    "react-intercom": "^1.0.10",
     "react-responsive-grid": "^0.3.0",
     "react-router": "^2.0.1",
     "toml-js": "0.0.8",

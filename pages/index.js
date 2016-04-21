@@ -1,11 +1,14 @@
 import React from 'react'
 import './styles.scss'
+import IntercomClient from 'react-intercom'
 
 export default class Index extends React.Component {
   render () {
     return (
       <div>
         <div className="header">
+        <IntercomClient appID="amifh8xw" />
+
           <div className="nav">
             <div className="logo">
               <img width="60" height="60" src="/logo.png" /> <h1>Reploy</h1>
