@@ -24,7 +24,9 @@ export default class Index extends React.Component {
             <h3>Skip app testing headaches.</h3>
             <h4>Keep your team and customers in the loop with in-browser app testing tools.</h4>
           </div>
-          <a href="https://app.reploy.io/signup"><button>Sign up and set up your first app</button></a>
+          <a href="https://app.reploy.io/signup">
+            <button>Sign up and set up your first app</button></a>
+            <p style={{marginTop: 10, color: '#fff'}}>Free during our preview release!</p>
         </div>
         <div id="features" className="features">
           <h2>Features</h2>
