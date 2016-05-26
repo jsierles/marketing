@@ -1,2 +1,9 @@
-siteTitle="Gatsby Starter Site"
-linkPrefix = "/gatsby-starter-default"
+siteTitle="Reploy"
+docPages = [
+  "/docs/",
+  "/docs/getting-started/",
+  "/docs/how-to-run/",
+  "/docs/some-react-code/",
+  "/docs/the-next-step/",
+  "/docs/conclusion/",
+]

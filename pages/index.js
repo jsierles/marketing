@@ -11,7 +11,7 @@ export default class Index extends React.Component {
 
           <div className="nav">
             <div className="logo">
-              <img width="60" height="60" src="/logo.png" /> <h1>Reploy</h1>
+              <img width="60" height="60" src="./assets/logo.png" /> <h1>Reploy</h1>
             </div>
             <div className="subnav">
               <a href="#features">Features</a>
@@ -33,28 +33,28 @@ export default class Index extends React.Component {
           <div className="features-block">
             <div className="push">
               <div className="feature-image">
-                <img src="/feature-push.png" />
+                <img src="./assets/feature-push.png" />
               </div>
               <h4>push</h4>
               <p>Build and push your app from the command line.</p>
             </div>
             <div className="test">
               <div className="feature-image">
-                <img src="/feature-test.png" />
+                <img src="./assets/feature-test.png" />
               </div>
               <h4>test</h4>
               <p>Get people testing immediately <em>in-browser</em> on iOS and Android simulators.</p>
             </div>
             <div className="comment">
               <div className="feature-image">
-                <img src="/feature-comment.png" />
+                <img src="./assets/feature-comment.png" />
               </div>
               <h4>comment</h4>
               <p>Your testers comment on screen captures of bugs or suggestions.</p>
             </div>
             <div className="review">
               <div className="feature-image">
-                <img src="/feature-review.png" />
+                <img src="./assets/feature-review.png" />
               </div>
               <h4>review</h4>
               <p>You review feedback from your team and your customers.</p>
@@ -70,7 +70,7 @@ export default class Index extends React.Component {
           <p>We built Reploy to solve this problem!</p>
           <div className="bios">
             <div>
-              <img src="/chris.png" />
+              <img src="./assets/chris.png" />
               <h3>Christopher Dro</h3>
                 <p>I'm passionate about building cross-platform apps and contributing to React Native.
                   In my free time I play guitar and work on Reploy :)
@@ -78,7 +78,7 @@ export default class Index extends React.Component {
                   <h4><a href="http://chris.si">chris.si</a></h4>
             </div>
             <div>
-              <img src="/joshua.png" />
+              <img src="./assets/joshua.png" />
                 <h3>Joshua Sierles</h3>
                 <p>I spend some of my time working on Reploy and React Native apps.
                   The rest of my time I enjoy a slow life in southern Spain playing flamenco guitar or drinking small beers.
@@ -88,7 +88,7 @@ export default class Index extends React.Component {
           </div>
         </div>
         <div className="footer">
-          <img src="/logo.png" />
+          <img src="./assets/logo.png" />
           <h5><a href="mailto:team@reploy.io">team@reploy.io</a></h5>
         </div>
       </div>
