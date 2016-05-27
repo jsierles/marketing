@@ -12,11 +12,7 @@ html, body {
   background: url('/assets/laptop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 2.4em;
-
-  .nav {
-    letter-spacing: .2em;
-  }
+  // padding: 0 2.4em;
 
   .tagline {
     max-width: 400px;
@@ -29,11 +25,6 @@ html, body {
       color: #eee;
     }
   }
-}
-
-.logo {
-  display: flex;
-  align-items: center;
 }
 
 h1 {
@@ -60,31 +51,6 @@ h3 {
   font-size: 100%;
 }
 
-.nav {
-  padding-top: 1em;
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
-  color: $lightBlue;
-  img {
-    margin: 0;
-    margin-right: 1em;
-  }
-}
-
-.subnav {
-  width: 25vw;
-  font-size: 85%;
-  display: flex;
-  justify-content: space-between;
-  text-transform: uppercase;
-}
-
-.subnav a, a:visited {
-  color: #eee;
-  text-decoration: none;
-}
 
 h2, h3 {
     line-height: 1.6em !important;
