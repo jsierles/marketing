@@ -1,24 +1,19 @@
 import React from 'react'
-import './styles.scss'
+
+
 import IntercomClient from 'react-intercom'
+import Nav from 'components/nav'
+
+import './styles.scss'
 
 export default class Index extends React.Component {
-  render () {
+  render() {
     return (
       <div>
         <div className="header">
-        <IntercomClient appID="amifh8xw" />
+          <IntercomClient appID="amifh8xw" />
+          <Nav />
 
-          <div className="nav">
-            <div className="logo">
-              <img width="60" height="60" src="./assets/logo.png" /> <h1>Reploy</h1>
-            </div>
-            <div className="subnav">
-              <a href="#features">Features</a>
-              <a href="#team">Team</a>
-              <a href="https://app.reploy.io/signup">Sign up</a>
-            </div>
-          </div>
           <div className="tagline">
             <h2>Speed up your react native app development</h2>
             <h3>Skip app testing headaches.</h3>
@@ -26,7 +21,7 @@ export default class Index extends React.Component {
           </div>
           <a href="https://app.reploy.io/signup">
             <button>Sign up and set up your first app</button></a>
-            <p style={{marginTop: 10, color: '#fff'}}>Free during our preview release!</p>
+          <p style={{marginTop: 10, color: '#fff'}}>Free during our preview release!</p>
         </div>
         <div id="features" className="features">
           <h2>Features</h2>
